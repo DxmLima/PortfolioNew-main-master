@@ -9,7 +9,7 @@ const TemplateSection = () => {
         <div className="flex justify-center items-center">
           <div className="grid grid-cols-1 md:grid-cols-2 mt-12 gap-20">
             <div>
-              <h1 className="text-white text-4xl font-bold">Templates Prontos</h1>
+              <h1 className="bg-gradient-to-r from-green-500 to-green-800 bg-clip-text text-transparent uppercase text-3xl font-bold">Templates Prontos</h1>
               <p className="w-[400px] text-gray-300  tracking-wider mt-12">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
                 laudantium ipsam animi neque repellendus. Necessitatibus vitae
@@ -58,43 +58,7 @@ const TemplateSection = () => {
         </div>
       </main>
 
-      <div>
-        <h1 className="text-3xl font-bold p-12"> Templates Advocacia</h1>
-        <div className="flex justify-center items-center mt-12">
-          <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  w-[1200px] gap-12">
-            <TemplatesAwareHover imageUrl="https://images.unsplash.com/photo-1526572728358-228f6b8ca29b?q=80&w=2123&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-              <div className="flex flex-col gap-3">
-                <span className="text-lg font-semibold">
-                  Template Advocacia
-                </span>
-                <button className="px-4 py-2 rounded-md bg-white text-black hover:bg-gray-200 transition">
-                  Conferir Template
-                </button>
-              </div>
-            </TemplatesAwareHover>
-            <TemplatesAwareHover imageUrl="https://images.unsplash.com/photo-1526572728358-228f6b8ca29b?q=80&w=2123&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-              <div className="flex flex-col gap-3">
-                <span className="text-lg font-semibold">
-                  Template Advocacia
-                </span>
-                <button className="px-4 py-2 rounded-md bg-white text-black hover:bg-gray-200 transition">
-                  Conferir Template
-                </button>
-              </div>
-            </TemplatesAwareHover>
-            <TemplatesAwareHover imageUrl="https://images.unsplash.com/photo-1526572728358-228f6b8ca29b?q=80&w=2123&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-              <div className="flex flex-col gap-3">
-                <span className="text-lg font-semibold">
-                  Template Advocacia
-                </span>
-                <button className="px-4 py-2 rounded-md bg-white text-black hover:bg-gray-200 transition">
-                  Conferir Template
-                </button>
-              </div>
-            </TemplatesAwareHover>
-          </section>
-        </div>
-      </div>
+ 
     </div>
   );
 };

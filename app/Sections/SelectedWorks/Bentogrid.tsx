@@ -33,7 +33,12 @@ export function BentoGridImages() {
 
   return (
     <div className="h-screen py-20 w-full bg-black">
+          <div className="flex  ml-[260px]">
+          <h1 className="  bg-gradient-to-r from-green-500 to-green-800 bg-clip-text text-transparent text-3xl font-black m-3 uppercase">Design Assets</h1>
+          </div>
+      
       <LayoutGrid cards={cards} />
+     
     </div>
   );
 }
