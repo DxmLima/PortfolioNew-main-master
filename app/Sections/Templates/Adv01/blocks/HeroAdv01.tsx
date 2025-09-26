@@ -2,6 +2,7 @@
 import React from 'react'
 import { Sura, Montserrat } from 'next/font/google'
 import {cn} from '@/lib/utils'
+import StatueImg from '@/public/Template/Adv01/Statue.png';
 
 
 const sura = Sura({
@@ -49,7 +50,7 @@ const HeroAdv01 = () => {
                 <div className='relative w-full max-w-[560px]  mb-[100px] md:mb-[0px]  md:h-[40rem] rounded-2xl'>
                   <div className='pointer-events-none absolute -inset-4 -z-10 bg-gradient-to-r from-blue-400 to-purple-500 rounded-2xl blur-2xl opacity-20' aria-hidden='true' />
                   <img
-                    src='/Template/Adv01/Statue.png'
+                    src={StatueImg}
                     alt='Ilustração representando serviços de advocacia'
                     className='relative z-10 h-full w-full object-cover shadow-2xl ring-1 md:ml-12 ring-black/5 dark:ring-white/10'
                   />

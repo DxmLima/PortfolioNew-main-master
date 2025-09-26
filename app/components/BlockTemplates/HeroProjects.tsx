@@ -1,6 +1,10 @@
 "use client";
 import React from "react";
 import { HeroParallax } from "../../../components/ui/hero-parallax";
+import Project01 from '@/public/Projects/01.png';
+import Project02 from '@/public/Projects/02.png';
+import Project03 from '@/public/Projects/03.png';
+import Project04 from '@/public/Projects/04.png';
 
 export function HeroProjects() {
   return <HeroParallax products={products} />;
@@ -9,23 +13,23 @@ export const products = [
   {
     title: "Eliana Nakakubo",
     link: "https://gomoonbeam.com",
-    thumbnail: "/Projects/01.png",
+    thumbnail: Project01,
   },
   {
     title: "AutoPlacas.net",
     link: "https://cursor.so",
-    thumbnail: "/Projects/02.png",
+    thumbnail: Project02,
   },
   {
     title: "Ansiedade.com",
     link: "https://userogue.com",
-    thumbnail: "/Projects/03.png",
+    thumbnail: Project03,
   },
 
   {
     title: "Ansiedade Soluções",
     link: "https://editorially.org",
-    thumbnail: "/Projects/04.png",
+    thumbnail: Project04,
   },
   {
     title: "Editrix AI",

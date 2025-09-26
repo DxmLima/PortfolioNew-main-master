@@ -9,6 +9,7 @@ import {
 } from "motion/react";
 import Image from "next/image";
 import { Noto_Sans } from "next/font/google";
+import type { StaticImageData } from 'next/image';
 
 const noto = Noto_Sans({
   subsets: ["latin"],
@@ -19,7 +20,7 @@ export const HeroParallax = ({
 }: {
   products: {
     title: string;
-    thumbnail: string;
+    thumbnail: string | StaticImageData;
   }[];
 }) => {
   const firstRow = products.slice(0, 5);

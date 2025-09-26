@@ -4,12 +4,12 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
+import ArchImg from '@/public/Template/Arch.png';
 
 const cardData = [
   {
     title: "Template Arquitetura",
-    imageUrl:
-      "/Template/Arch.png",
+    imageUrl: ArchImg,
     link: "/Templates/Arquitetura",
   },
   {

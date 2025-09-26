@@ -2,17 +2,17 @@ import React from 'react'
 
 const HeroAbout = () => {
   return (
-    <div className='bg-white h-[700px] '>
+    <div className='bg-black h-[700px] '>
                 <header className="mb-8 md:mb-12">
-        <h1 className="text-black font-black uppercase text-5xl md:text-3xl tracking-wide ml-2 pt-12 md:ml-[220px]">
+        <h1 className="text-white font-black uppercase text-5xl md:text-3xl tracking-wide ml-2 pt-12 md:ml-[220px]">
           Sobre mim
         </h1>
       </header>
 
       <div>
          
-      <section className="flex justify-center items-center p-6  ">
-        <div className="w-full max-w-5xl rounded-lg border w-[700px] border-neutral-800 bg-black/80 shadow-2xl backdrop-blur">
+      <section className="flex justify-center items-center p-6  animate-pulse ">
+        <div className=" max-w-5xl rounded-lg border w-[700px] border-neutral-800 bg-black/80 shadow-2xl backdrop-blur">
           {/* Terminal header */}
           <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-900/80 rounded-t-lg">
             <span className="h-3 w-3 rounded-full bg-red-500"></span>

@@ -33,7 +33,8 @@ export default function Navbar() {
   const [state, setState] = React.useState(false);
 
   const firstMenus = [
-    { title: "[SOBRE]", path: "/" },
+    { title: "[HOME]", path: "/" },
+    { title: "[SOBRE]", path: "/Sections/About" },
     { title: "[PROJETOS]", path: "/Sections/SelectedWorks" },
     { title: "[SERVIÇOS]", path: "/Sections/Services" },
     { title: "[TEMPLATES]", path: "/Sections/Services" },
