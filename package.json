@@ -50,9 +50,11 @@
     "react-icons": "^5.5.0",
     "recharts": "^2.13.0",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-glitch": "^0.2.6"
   },
   "devDependencies": {
+    "@designbycode/tailwindcss-text-glitch": "^1.0.1",
     "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",

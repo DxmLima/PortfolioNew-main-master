@@ -15,7 +15,7 @@ export function BentoGridImages() {
       id: 2,
       content: <SkeletonTwo />,
       className: "md:col-span-2",
-      thumbnail: "/Projects/Mecha01.png",
+      thumbnail: "/Projects/Caronte.png",
     },
     {
       id: 3,

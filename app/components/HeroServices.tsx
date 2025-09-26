@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const HeroServices = () => {
   return (
-    <div className="bg-[#0D0D0D] h-[950px]">
+    <div className="bg-[#0D0D0D] h-[2050px] md:h-[850px]">
       <header className="mb-8 md:mb-12">
         <h1 className=" font-black uppercase text-white text-2xl md:text-3xl tracking-wide ml-2 pt-12 md:ml-[220px]">
           Serviços Prestados

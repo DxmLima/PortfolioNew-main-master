@@ -129,11 +129,11 @@ const HeroAbout = () => {
                 </div>
 
                 <div className="mt-8 flex flex-wrap gap-3">
-                  <a href="#projects" className="px-4 py-2 rounded border border-green-700 text-green-300 hover:bg-green-950/40 transition font-mono text-sm">
-                    $ open projects
+                  <a href="/Sections/Templates" className="px-4 py-2 rounded border border-green-700 text-green-300 hover:bg-green-950/40 transition font-mono text-sm">
+                    $ templates
                   </a>
-                  <a href="#contact" className="px-4 py-2 rounded border border-green-700 text-green-300 hover:bg-green-950/40 transition font-mono text-sm">
-                    $ contact
+                  <a href="/Sections/Contato" className="px-4 py-2 rounded border border-green-700 text-green-300 hover:bg-green-950/40 transition font-mono text-sm">
+                    $ contato
                   </a>
                 </div>
               </div>

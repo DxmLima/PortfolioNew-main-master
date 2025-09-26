@@ -9,7 +9,7 @@ import StacksPage from "./Sections/Stacks/page";
 import PersonalProjects from "./Sections/PersonalProjects/page";
 import HeroBanner from "./Sections/SelectedWorks/HeroBanner";
 import ProjectsCards from "./Sections/SelectedWorks/ProjectsCards";
-import { ServiceCards } from "./Sections/Services/ServiceCards";
+
 import BinaryBackground from "./components/BinaryBackground";
 import HeroServices from "./components/HeroServices";
 import HeroAbout from "./components/HeroAbout";

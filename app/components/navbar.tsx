@@ -37,7 +37,7 @@ export default function Navbar() {
     { title: "[SOBRE]", path: "/Sections/About" },
     { title: "[PROJETOS]", path: "/Sections/SelectedWorks" },
     { title: "[SERVIÇOS]", path: "/Sections/Services" },
-    { title: "[TEMPLATES]", path: "/Sections/Services" },
+    { title: "[TEMPLATES]", path: "/Sections/Templates" },
     { title: "[CONTATO]", path: "/Sections/Services" },
    
   ];
