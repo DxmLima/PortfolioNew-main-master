@@ -76,7 +76,10 @@ export const HeroParallax = ({
         <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-20">
           {firstRow.map((product) => (
             <ProductCard
-              product={product}
+              product={{
+                ...product,
+                thumbnail: typeof product.thumbnail === "string" ? product.thumbnail : (product.thumbnail as any).src
+              }}
               translate={translateX}
               key={product.title}
             />
@@ -85,7 +88,10 @@ export const HeroParallax = ({
         <motion.div className="flex flex-row  mb-20 space-x-20 ">
           {secondRow.map((product) => (
             <ProductCard
-              product={product}
+              product={{
+                ...product,
+                thumbnail: typeof product.thumbnail === "string" ? product.thumbnail : (product.thumbnail as any).src
+              }}
               translate={translateXReverse}
               key={product.title}
             />
@@ -94,7 +100,10 @@ export const HeroParallax = ({
         <motion.div className="flex flex-row-reverse space-x-reverse space-x-20">
           {thirdRow.map((product) => (
             <ProductCard
-              product={product}
+              product={{
+                ...product,
+                thumbnail: typeof product.thumbnail === "string" ? product.thumbnail : (product.thumbnail as any).src
+              }}
               translate={translateX}
               key={product.title}
             />
