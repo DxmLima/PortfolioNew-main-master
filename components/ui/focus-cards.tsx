@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import type { StaticImageData } from "next/image";
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -48,7 +49,7 @@ Card.displayName = "Card";
 
 type Card = {
   title: string;
-  src: string;
+  src: string | StaticImageData;
 };
 
 export function FocusCards({ cards }: { cards: Card[] }) {

@@ -14,6 +14,7 @@ import {
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "motion/react";
 import Image, { ImageProps } from "next/image";
+import type { StaticImageData } from "next/image";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 
 interface CarouselProps {
@@ -22,7 +23,7 @@ interface CarouselProps {
 }
 
 type Card = {
-  src: string;
+  src: string | StaticImageData;
   title: string;
   category: string;
  
